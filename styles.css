@@ -1,0 +1,186 @@
+/* Импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #eefdff;
+  color: #0f141f;
+
+  /* Первый вариант стиля шрифтов */
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+
+  /* Второй вариант стиля шрифтов */
+  /* font: normal 16px 'Roboto', sans-serif; */
+}
+
+a {
+  color: rgb(31, 179, 179);
+  text-decoration: none;
+}
+
+/* Псевдоселектор/состояние(state) селектора */
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+/* Класс для картинки */
+.ava {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+/* Класс для параграфов в шапке */
+.info p {
+  color: rgb(113, 166, 182);
+  margin: 0;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 975px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+/* Контейнер для ссылок */
+/* .links {
+  background-color: red;
+  padding: 10px;
+  border: 3px solid blueviolet;
+  margin: 5px;
+  border-bottom-style: dotted;
+  border-top-width: 7px;
+  border-top-color: gray;
+} */
+/* Контейнер для всего контента */
+.container {
+  width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card {
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: rgb(31, 179, 179);
+  margin-bottom: 10px;
+}
+/* Обнуление всех отступов */
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: rgb(31, 179, 179);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(31, 179, 179);
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(31, 179, 179);
+  outline: none;
+  padding: 5px 0 5px;
+  margin: 5px 0 5px;
+}
+
+.btn {
+  background: #2c2f36;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
