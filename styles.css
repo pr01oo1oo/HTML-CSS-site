@@ -55,21 +55,13 @@ a:active {
 
 .info-text {
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 .info-text h4 {
   margin-bottom: 10px;
 }
-/* Контейнер для ссылок */
-/* .links {
-  background-color: red;
-  padding: 10px;
-  border: 3px solid blueviolet;
-  margin: 5px;
-  border-bottom-style: dotted;
-  border-top-width: 7px;
-  border-top-color: gray;
-} */
+
 /* Контейнер для всего контента */
 .container {
   width: 75%;
@@ -107,11 +99,6 @@ a:active {
   color: rgb(31, 179, 179);
   margin-bottom: 10px;
 }
-/* Обнуление всех отступов */
-/* * {
-  padding: 0;
-  margin: 0;
-} */
 
 .table {
   width: 100%;
